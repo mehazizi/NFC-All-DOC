@@ -1,0 +1,110 @@
+[usb] pm3 --> script lis
+
+[ Lua scripts ]
+├── C:\Proxmark35\pm3\proxmark3\client\luascripts/
+│   ├── data_hex_crc.lua
+│   ├── data_mf_accessdecode.lua
+│   ├── data_mf_bin2eml.lua
+│   ├── data_mf_bin2html.lua
+│   ├── data_mf_eml2bin.lua
+│   ├── data_mf_eml2html.lua
+│   ├── data_mfu_bin2eml.lua
+│   ├── examples/
+│   │   ├── example_cmdline.lua
+│   │   └── example_parameters.lua
+│   ├── hf_14a_aztek.lua
+│   ├── hf_14a_i2crevive.lua
+│   ├── hf_14a_protectimus_nfc.lua
+│   ├── hf_14a_raw.lua
+│   ├── hf_14a_read-ltocm.lua
+│   ├── hf_14b_calypso.lua
+│   ├── hf_14b_mobib.lua
+│   ├── hf_15_magic.lua
+│   ├── hf_i2c_plus_2k_utils.lua
+│   ├── hf_legic.lua
+│   ├── hf_legic_buffer2card.lua
+│   ├── hf_legic_clone.lua
+│   ├── hf_mf_autopwn.lua
+│   ├── hf_mf_dump_luxeo.lua
+│   ├── hf_mf_em_util.lua
+│   ├── hf_mf_format.lua
+│   ├── hf_mf_gen3_writer.lua
+│   ├── hf_mf_keycheck.lua
+│   ├── hf_mf_magicrevive.lua
+│   ├── hf_mf_mini_dumpdecrypt.lua
+│   ├── hf_mf_sim_hid.lua
+│   ├── hf_mf_tnp3_clone.lua
+│   ├── hf_mf_tnp3_dump.lua
+│   ├── hf_mf_tnp3_sim.lua
+│   ├── hf_mf_uid_downgrade.lua
+│   ├── hf_mf_uidbruteforce.lua
+│   ├── hf_mf_uidkeycalc.lua
+│   ├── hf_mf_uidkeycalc_mizip.lua
+│   ├── hf_mf_ultimatecard.lua
+│   ├── hf_mf_uscuid_prog.lua
+│   ├── hf_mfp_raw.lua
+│   ├── hf_mfu_amiibo_restore.lua
+│   ├── hf_mfu_amiibo_sim.lua
+│   ├── hf_mfu_magicwrite.lua
+│   ├── hf_mfu_setuid.lua
+│   ├── hf_mfu_uidkeycalc_italy.lua
+│   ├── hf_ndef_dump.lua
+│   ├── hf_ntag_3d.lua
+│   ├── hf_ntag_bruteforce.lua
+│   ├── hf_ntag_dt.lua
+│   ├── init_rdv4.lua
+│   ├── lf_awid_bulkclone.lua
+│   ├── lf_electra.lua
+│   ├── lf_em4100_bulk.lua
+│   ├── lf_em_tearoff.lua
+│   ├── lf_em_tearoff_protect.lua
+│   ├── lf_hid_bulkclone.lua
+│   ├── lf_hid_bulkclone_v2.lua
+│   ├── lf_ident_json.lua
+│   ├── lf_ioprox_bulkclone.lua
+│   ├── lf_t55xx_reset.lua
+│   ├── mem_readpwd.lua
+│   ├── mem_spiffs_readpwd.lua
+│   ├── mfc_hammerlite.lua
+│   ├── multi_bruteforce.lua
+│   ├── ntag_getsig.lua
+│   ├── ntag_hammertime.lua
+│   └── tests/
+│       ├── data_tracetest.lua
+│       ├── hf_read.lua
+│       ├── lf_t55xx_defaultask.lua
+│       ├── lf_t55xx_defaultbi.lua
+│       ├── lf_t55xx_defaultfsk.lua
+│       ├── lf_t55xx_defaultpsk.lua
+│       └── lf_t55xx_writetest.lua
+├── C:\Proxmark35\pm3/.proxmark3/luascripts/
+└── C:\Proxmark35\pm3\proxmark3\client\../share/proxmark3/luascripts/
+
+[ Cmd scripts ]
+├── C:\Proxmark35\pm3\proxmark3\client\cmdscripts/
+│   ├── example.cmd
+│   ├── rdv4_init_extflash.cmd
+│   └── test_psk_clone.cmd
+├── C:\Proxmark35\pm3/.proxmark3/cmdscripts/
+└── C:\Proxmark35\pm3\proxmark3\client\../share/proxmark3/cmdscripts/
+
+[ Python scripts ]
+├── C:\Proxmark35\pm3\proxmark3\client\pyscripts/
+│   ├── __pycache__/
+│   ├── amiibo_change_uid.py
+│   ├── findbits.py
+│   ├── fm11rf08s_recovery.py
+│   ├── ice.py
+│   ├── intertic.py
+│   ├── parity.py
+│   ├── pm3.py
+│   ├── pm3_eml2mfd.py
+│   ├── pm3_eml_mfd_test.py
+│   ├── pm3_help2json.py
+│   ├── pm3_help2list.py
+│   ├── pm3_mfd2eml.py
+│   ├── pm3_nfc2eml.py
+│   ├── theremin.py
+│   └── xorcheck.py
+├── C:\Proxmark35\pm3/.proxmark3/pyscripts/
+└── C:\Proxmark35\pm3\proxmark3\client\../share/proxmark3/pyscripts/
